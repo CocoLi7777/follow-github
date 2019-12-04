@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.followBtn {
+  float: right;
+  border: 1px solid gray;
+  border-radius: 10%;
+  height: 22px;
+  font-weight: bold;
+  background: indianred;
+  font-size: 13px;
+  cursor: pointer;
+}
+.user-layout {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 30vh;
+  background-image: url('./layout/pic/1.jpg');
+  background-repeat: no-repeat;
+}
+.follower-layout {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 30vh;
+}
+.user-box {
+  padding: 1rem;
+  width: 300px;
+}
+.App-link {
+  color: #09d3ac;
+  text-decoration: none;
+}
+.li-style {
+  list-style-type: none;
+  width: 400px;
+  padding: 5px;
+  border: 2px solid lightgrey;
+  height: 50px;
+  line-height: 50px;
+  border-collapse: collapse;
+}
+.ul-style {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 300px;
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: chocolate;
+}
+.reminder {
+  margin: 100px auto;
+  font-size: 25px;
+  width: 500px;
+  height: 100px;
+}
+.reminder-sigh {
+  margin: 0px auto;
+  width: 500px;
+  height: 70px;
+  font-size: 27px;
+  font-weight: 500;
+}
+body {
+  background-image: url('./layout/pic/1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
